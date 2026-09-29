@@ -1,0 +1,50 @@
+import { LogoConfig } from '../../../shared/protocol.js';
+
+export const LOGOS: LogoConfig[] = [
+  {
+    id: 'aces',
+    name: 'ACES',
+    fullName: 'Association of Computer Engineering Students',
+    tagline: 'Empowering Future Innovators & Engineers',
+    image: '/logos/aces.png',
+    themeColor: '#38bdf8',
+    secondaryColor: '#0284c7',
+  },
+  {
+    id: 'acm',
+    name: 'ACM',
+    fullName: 'Association for Computing Machinery',
+    tagline: 'Advancing Computing as a Science & Profession',
+    image: '/logos/acm.jpeg',
+    themeColor: '#818cf8',
+    secondaryColor: '#4f46e5',
+  },
+  {
+    id: 'technical-club',
+    name: 'Technical Club',
+    fullName: 'Technical Excellence & Development Club',
+    tagline: 'Building Code, Hardware & Digital Future',
+    image: '/logos/technical-club.jpeg',
+    themeColor: '#34d399',
+    secondaryColor: '#059669',
+  },
+  {
+    id: 'art-circle',
+    name: 'Art Circle Club',
+    fullName: 'Art & Cultural Expression Guild',
+    tagline: 'Where Technology Meets Artistic Creativity',
+    image: '/logos/art-circle.jpeg',
+    themeColor: '#f472b6',
+    secondaryColor: '#db2777',
+  },
+  {
+    id: 'idea-bank',
+    name: 'Idea Bank Club',
+    fullName: 'The Innovation & Incubation Hub',
+    tagline: 'IDEAS START HERE',
+    image: '/logos/idea-bank.jpeg',
+    isFinale: true,
+    themeColor: '#fbbf24',
+    secondaryColor: '#d97706',
+  },
+];
